@@ -2,6 +2,8 @@
 
 ## Homework 1
 
+Student: **Vsevolod Pavlovskyi**
+
 Made with SwiftUI
 
 ---
