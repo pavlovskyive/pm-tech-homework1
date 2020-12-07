@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7952CC4B257D29AE00CBDDDE /* PiNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7952CC4A257D29AE00CBDDDE /* PiNumber.swift */; };
 		7963BE35257D007D005F06AE /* HomeworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7963BE34257D007D005F06AE /* HomeworkApp.swift */; };
 		7963BE37257D007D005F06AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7963BE36257D007D005F06AE /* ContentView.swift */; };
 		7963BE39257D007F005F06AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7963BE38257D007F005F06AE /* Assets.xcassets */; };
 		7963BE3C257D007F005F06AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7963BE3B257D007F005F06AE /* Preview Assets.xcassets */; };
+		7963BE45257D00E7005F06AE /* FactorialRecursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7963BE44257D00E7005F06AE /* FactorialRecursion.swift */; };
+		7963BE48257D1083005F06AE /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7963BE47257D1083005F06AE /* CodeView.swift */; };
+		79655031257E15B600185B26 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79655030257E15B600185B26 /* Extensions.swift */; };
+		79B8554C257D125B0036019D /* NumberField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B8554B257D125B0036019D /* NumberField.swift */; };
+		79B8554F257D13CF0036019D /* FactorialIteration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B8554E257D13CF0036019D /* FactorialIteration.swift */; };
+		79B85552257D16830036019D /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B85551257D16830036019D /* Fibonacci.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7952CC4A257D29AE00CBDDDE /* PiNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiNumber.swift; sourceTree = "<group>"; };
 		7963BE31257D007D005F06AE /* Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7963BE34257D007D005F06AE /* HomeworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkApp.swift; sourceTree = "<group>"; };
 		7963BE36257D007D005F06AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7963BE38257D007F005F06AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7963BE3B257D007F005F06AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7963BE3D257D007F005F06AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7963BE44257D00E7005F06AE /* FactorialRecursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorialRecursion.swift; sourceTree = "<group>"; };
+		7963BE47257D1083005F06AE /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
+		79655030257E15B600185B26 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		79B8554B257D125B0036019D /* NumberField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberField.swift; sourceTree = "<group>"; };
+		79B8554E257D13CF0036019D /* FactorialIteration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorialIteration.swift; sourceTree = "<group>"; };
+		79B85551257D16830036019D /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +66,16 @@
 		7963BE33257D007D005F06AE /* Homework */ = {
 			isa = PBXGroup;
 			children = (
+				7963BE4A257D1087005F06AE /* View */,
 				7963BE34257D007D005F06AE /* HomeworkApp.swift */,
 				7963BE36257D007D005F06AE /* ContentView.swift */,
+				7963BE44257D00E7005F06AE /* FactorialRecursion.swift */,
+				79B85551257D16830036019D /* Fibonacci.swift */,
+				79B8554E257D13CF0036019D /* FactorialIteration.swift */,
 				7963BE38257D007F005F06AE /* Assets.xcassets */,
 				7963BE3D257D007F005F06AE /* Info.plist */,
 				7963BE3A257D007F005F06AE /* Preview Content */,
+				7952CC4A257D29AE00CBDDDE /* PiNumber.swift */,
 			);
 			path = Homework;
 			sourceTree = "<group>";
@@ -67,6 +86,16 @@
 				7963BE3B257D007F005F06AE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7963BE4A257D1087005F06AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7963BE47257D1083005F06AE /* CodeView.swift */,
+				79B8554B257D125B0036019D /* NumberField.swift */,
+				79655030257E15B600185B26 /* Extensions.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +167,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79B8554C257D125B0036019D /* NumberField.swift in Sources */,
+				79655031257E15B600185B26 /* Extensions.swift in Sources */,
 				7963BE37257D007D005F06AE /* ContentView.swift in Sources */,
+				7963BE45257D00E7005F06AE /* FactorialRecursion.swift in Sources */,
+				7952CC4B257D29AE00CBDDDE /* PiNumber.swift in Sources */,
+				79B8554F257D13CF0036019D /* FactorialIteration.swift in Sources */,
+				79B85552257D16830036019D /* Fibonacci.swift in Sources */,
 				7963BE35257D007D005F06AE /* HomeworkApp.swift in Sources */,
+				7963BE48257D1083005F06AE /* CodeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +305,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Homework/Preview Content\"";
+				DEVELOPMENT_TEAM = G66XPV3HVM;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Homework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -290,6 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Homework/Preview Content\"";
+				DEVELOPMENT_TEAM = G66XPV3HVM;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Homework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
